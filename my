@@ -1,0 +1,19 @@
+
+# get {my} config
+. "${HOME}/my-localhost/config.zsh"
+
+
+# run {my} program
+function my() {
+
+    if [ ! -d "${HOME}/Host" ]; then
+
+        echo "There's no Host folder in your Home directory."
+
+    else
+
+        . "${BASE}/run.zsh"
+
+    fi
+
+}

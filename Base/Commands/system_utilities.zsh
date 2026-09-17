@@ -1,0 +1,10 @@
+source /home/fortunate/my-localhost/System/utilities/files.zsh
+source /home/fortunate/my-localhost/System/utilities/folders.zsh
+source /home/fortunate/my-localhost/System/utilities/mongodb.zsh
+source /home/fortunate/my-localhost/System/utilities/mysql.zsh
+source /home/fortunate/my-localhost/System/utilities/postgres.zsh
+source /home/fortunate/my-localhost/System/utilities/sed.zsh
+source /home/fortunate/my-localhost/System/utilities/shell.zsh
+source /home/fortunate/my-localhost/System/utilities/sqlite.zsh
+source /home/fortunate/my-localhost/System/utilities/valet.zsh
+source /home/fortunate/my-localhost/System/utilities/wordpress.zsh
