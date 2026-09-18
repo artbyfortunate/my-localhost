@@ -20,7 +20,7 @@ POSTGRES_USERNAME="postgres"
 MONGODB_URI="mongodb://localhost:27017"
 
 # php
-PHP_CONFIG_PATH="${HOME}/etc/php/8.5/fpm"
+PHP_CONFIG_PATH="/etc/php/8.5/fpm"
 PHP_INI="${PHP_CONFIG_PATH}/php.ini"
 
 # nginx /etc/nginx

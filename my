@@ -8,7 +8,7 @@ function my() {
 
     if [ ! -d "${HOME}/Host" ]; then
 
-        echo "There's no Host folder in your Home directory."
+        . "${PROGRAM_HOST}/init.zsh"
 
     else
 

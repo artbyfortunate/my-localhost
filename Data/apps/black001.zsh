@@ -1,18 +1,18 @@
-function blank() {
+function black001() {
 
 	# Selector
     local OPTION=${1}
 	
 	# Config
-	local APPNAME="APPNAME"
-	local FRAMEWORK="FRAMEWORK"
+	local APPNAME='black001'
+	local FRAMEWORK="BLANK"
 	# local DBNAME="DBNAME"
 	# local DBUSER="DBUSER"
 	# local DBPASS="DBPASS"
 	# local DBTYPE="DBTYPE"
 
 	# Directories
-	local DIR="${HOST_APPS}/blank"
+	local DIR='/home/fortunate/Host/Apps/black001'
 
 	if [ ! ${1} ]; then
 	

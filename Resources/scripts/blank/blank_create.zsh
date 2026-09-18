@@ -99,12 +99,12 @@ EOF
 </html>
 EOF
 
-    sleep 1
-    echo "\n"
+    # sleep 1
+    # echo "\n"
 
-    # Create Database
-    echo "Create Database ${MYSQL_USERNAME}, ${MYSQL_PASSWORD}, ${APPNAME}"
-    mysql -u "${MYSQL_USERNAME}" --password="${MYSQL_PASSWORD}" -e 'CREATE DATABASE '${APPNAME}';'
+    # # Create Database
+    # echo "Create Database ${MYSQL_USERNAME}, ${MYSQL_PASSWORD}, ${APPNAME}"
+    # mysql -u "${MYSQL_USERNAME}" --password="${MYSQL_PASSWORD}" -e 'CREATE DATABASE '${APPNAME}';'
 
     sleep 1
     echo "\n"
@@ -127,13 +127,13 @@ EOF
 
     sed_find_replace 'FRAMEWORK="FRAMEWORK"' 'FRAMEWORK="BLANK"' "${DATA_APPS}/${APPNAME}.zsh"
 
-    sed_find_replace 'DBNAME="DBNAME"' "DBNAME='${APPNAME}'" "${DATA_APPS}/${APPNAME}.zsh"
+    # sed_find_replace 'DBNAME="DBNAME"' "DBNAME='${APPNAME}'" "${DATA_APPS}/${APPNAME}.zsh"
 
-    sed_find_replace 'DBUSER="DBUSER"' 'DBUSER="root"' "${DATA_APPS}/${APPNAME}.zsh"
+    # sed_find_replace 'DBUSER="DBUSER"' 'DBUSER="root"' "${DATA_APPS}/${APPNAME}.zsh"
 
-    sed_find_replace 'DBPASS="DBPASS"' 'DBPASS="root"' "${DATA_APPS}/${APPNAME}.zsh"
+    # sed_find_replace 'DBPASS="DBPASS"' 'DBPASS="root"' "${DATA_APPS}/${APPNAME}.zsh"
 
-    sed_find_replace 'DBTYPE="DBTYPE"' 'DBTYPE="MYSQL"' "${DATA_APPS}/${APPNAME}.zsh"
+    # sed_find_replace 'DBTYPE="DBTYPE"' 'DBTYPE="MYSQL"' "${DATA_APPS}/${APPNAME}.zsh"
 
     sed_find_replace 'local DIR="${HOST_APPS}/blank"' "local DIR='"${HOST_APPS}/${APPNAME}"'" "${DATA_APPS}/${APPNAME}.zsh"
 
